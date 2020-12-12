@@ -13,7 +13,7 @@ end
 array = ["Tim Jones", "Tommy Shelby", "Oswald Mosley"]
 
 my_collect(array) do |name|
-  puts name.split(" ").first 
+  puts name.split(" ").last 
 end
   
   
